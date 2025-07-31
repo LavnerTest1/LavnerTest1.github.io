@@ -38,10 +38,6 @@ h2 {
     text-align: center;
   }
 
-main, header, nav, article, aside, footer, section {
-    background-color: rgb(243, 159, 23);
-    padding: 1%;
-  }
 
 main {
     display: flex;
@@ -59,7 +55,4 @@ aside a {
     width: 50%;
   }
 
-footer {
-    margin-top: 10px;
-  }
   
