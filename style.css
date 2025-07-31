@@ -23,7 +23,7 @@ h2 {
   }
 
 main, header, nav, article, aside, footer, section {
-    background-color: rgba(0,255,0,0.5);
+    background-color: rgb(243, 159, 23);
     padding: 1%;
   }
 
