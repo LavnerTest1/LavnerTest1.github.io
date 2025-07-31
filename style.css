@@ -51,17 +51,17 @@ div {
 
 aside {
     flex: 1;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 1%;
-    display: flex;
-    flex-flow: column wrap;
-    font-size: 2rem;
 }
   
-aside li {
-    display: block;
+aside ul {
+    display: flex;
     float: left;
-    width: 50%;
+    flex-flow: column wrap;
+}
+
+aside li {
     font-size: 2rem;
 }
 
