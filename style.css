@@ -56,9 +56,7 @@ aside {
 }
   
 aside ul {
-    display: flex;
     float: left;
-    flex-flow: column wrap;
 }
 
 aside li {
