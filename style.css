@@ -1,3 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: rgb(243, 159, 23);
+  }
+  
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+
 h1 {
     font-size: 4rem;
     text-align: center;
