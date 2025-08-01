@@ -59,7 +59,11 @@ aside {
     margin-left: 5px;
     padding: 1%;
 }
-  
+ 
+label {
+    font-size: 2rem;
+}
+
 aside ul {
     float: left;
 }
