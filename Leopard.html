@@ -31,7 +31,25 @@
                     <li>Tissues - $994.99</li>
                 </ul>
                 <!--add purchase button-->
+                <label for="numField">Enter your debit card number (Do not enter your real debit card number)</label>
+                <input type="number" required class="numField">
+                <input type="submit" value="Submit" class="numSubmit">
+
+                <p class="scamMessage"></p>
             </div>
+            <script>
+                //Javascript
+                const numSubmit=document.querySelector(".numSubmit");
+                const numField=document.querySelector(".numField");
+                const scamMessage = document.querySelector(".scamMessage");
+
+                function scam() {
+                    numField.value="";
+                    scamMessage = document.textContent = "YOU GOT SCAMMED IMAGINE"
+                }
+
+                numSubmit.addEventListener("click", scam);
+            </script>
 
             <aside>
                 <h2>Benefits:</h2>
@@ -40,7 +58,7 @@
                     <li>You will have peace of mind<br></li>
                     <li>It is very cheap (and effective)<br></li>
                     <li>Better safe than sorry<br></li>
-                    <li>Refer to <a href="https://tinyurl.com/mrbirdworld">this link</a> to learn more about this pack<br></li>
+                    <li>Refer to <a href="https://tinyurl.com/mrbirdworld">this link</a> to learn more about this pack<br></li> <!--for some reason cant use long url must use tinyurl (long url [https://lavnertest1.github.io/assets/index.html])-->
                 </ul>
             </aside>
         </main>
