@@ -36,17 +36,20 @@
             </aside>
         </main>
         <script>
-            let userInput = prompt("Enter your password: ");
-            userInput =  Number(userInput);
-            if(userInput === 42){
-                console.log("You have unlocked the secrets to this universe");
-                console.log("I wasn't supposed to tell you that...");
-                console.log("Forget that. This was all a dream...");
+            function password(){
+                let userInput = prompt("Enter your password: ");
+                userInput =  Number(userInput);
+                if(userInput === 42){
+                    console.log("You have unlocked the secrets to this universe");
+                    console.log("I wasn't supposed to tell you that...");
+                    console.log("Forget that. This was all a dream...");
 
-                setTimeout(function(){
-                    window.location.replace('https://tinyurl.com/mrbirdworld');
-                }, 5000)
+                    setTimeout(function(){
+                        window.location.replace('https://tinyurl.com/mrbirdworld');
+                    }, 5000)
+                }
             }
+                
         </script>
 
     </body>
